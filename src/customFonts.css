@@ -1,0 +1,25 @@
+/* src/customFonts.css */
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('/fonts/NeueMontreal-Regular.woff2') format('woff2'),
+         url('/fonts/NeueMontreal-Regular.woff') format('woff');
+    font-weight: 400; /* Regular weight */
+  }
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('/fonts/grotesk/FoundersGrotesk-Light.otf') format('opentype');
+    font-weight: 300; /* Light weight */
+}
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('/fonts/grotesk/FoundersGrotesk-Medium.otf') format('opentype');
+    font-weight: 500; /* Regular weight */
+}
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('/fonts/grotesk/FoundersGrotesk-SemiBold.otf') format('opentype');
+    font-weight: 700; /* Bold weight */
+}
