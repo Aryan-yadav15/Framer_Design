@@ -7,7 +7,8 @@ const LandingPage = () => {
   return (
     <div className='w-full h-screen bg-zinc-900 pt-1'>
       <div className="textstructure mt-40 px-20">
-        {["We Create", "Eye Opening", "Presentations"].map((item, index) => (
+      <p className="font-['Founders_Grotesk']">Hell i am</p>
+        {["Aryan Yadav", "Designer &", "FullStack"].map((item, index) => (
           <div className="masker" key={index}> {/* Added key prop for uniqueness */}
             <div className="w-fit flex items-end overflow-hidden">
               {index === 1 && (
